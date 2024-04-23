@@ -1,0 +1,147 @@
+main{
+    .seccion1-home{
+        padding: 20px 0px 80px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(250, 250, 250);
+        border-radius: 0px 0px 49px 49px;
+        -webkit-border-radius: 0px 0px 49px 49px;
+        -moz-border-radius: 0px 0px 49px 49px;
+        .bloque1-home{
+            display: flex;
+            flex-direction: column;
+        } 
+        .titulo-home{
+            font-size: 5rem;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px; 
+            color: #1d2d5a;
+            font-weight: bold;
+        }
+        .titulo-home span{
+            color: #d56f2c;
+            font-size: 5rem;
+        }
+        .bloque1-home h2{
+            text-align: center;
+            font-size: 3rem;
+            padding-bottom: 20px;
+            color:#1d2d5a;
+        }
+        .texto-bienvenida{
+            padding-top: 20px;
+            width: 70%;
+            text-align: justify;
+            align-self: center;
+            font-size: 1.5rem;
+            color: #1d2d5a;
+        }
+        
+        .botones-home{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 50px;
+        }
+        
+        .botones-home button{
+            background-color: #3654cd;
+            color: white;
+            font-family: "Josefin Sans", sans-serif;
+            padding: 10px;
+            border-radius: 10px;
+            width: 110px;
+            height: 40px;
+        }
+        .bloque2-home{
+            width: 700px;
+            margin-left: 50px;
+            border-radius: 119px 0px 0px 120px;
+            -webkit-border-radius: 119px 0px 0px 120px;
+            -moz-border-radius: 119px 0px 0px 120px;
+        }
+        
+    } 
+}
+
+/* SECCIÓN 2 - HOME */
+.seccion2-destacados{
+    padding: 40px;
+    background-color: #0e0e0e;
+    .bloque1-destacados{
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px; 
+        color:rgb(250, 250, 250);
+    }
+}
+
+.bloque2-destacados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .tarjeta{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(250, 250, 250);
+        width: 200px;
+        border-radius: 20px;
+        margin: 30px;
+    }
+    .tarjeta img{
+        width: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+    .tarjeta .precio{
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        color: #d56f2c;
+    }
+    .tarjeta p{
+        font-size: 1.5rem;
+        padding: 0 20px 20px 20px;
+    }
+}
+
+/* SECCIÓN 3 - HOME */
+.seccion3-somos{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 49px 49px 0px 0px ;
+    -webkit-border-radius: 49px 49px 0px 0px ;
+    -moz-border-radius: 49px 49px 0px 0px ;
+    .bloque1-somos{
+        align-self: flex-start;
+        color: #1d2d5a;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 15px;
+    }
+    .bloque1-somos h2{
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 15px 0 0 50px;
+        margin: 30px 0 30px 0;
+    }
+    .bloque1-somos p{
+        font-size: 1.5rem;
+        color: #1d2d5a;
+        width: 500px;
+        padding: 0 0 50px 50px;
+        text-align: justify;
+    }
+    .bloque2-somos{
+        padding: 50px 50px 50px 50px;
+    }
+    .bloque2-somos iframe{
+        border-radius: 40px;
+    }
+}

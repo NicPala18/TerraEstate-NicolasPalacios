@@ -1,0 +1,137 @@
+/*SOBRE NOSOTROS*/ 
+body{
+    background-color: $blanco;
+    .titulo-nos{
+        display: flex;
+        justify-content: start;
+        color: $azul;
+        margin-left: 65px;
+        margin-top: 15px;
+    }
+    .section1-nos{
+        padding-top: 20px;
+        padding-bottom: 35px; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .p-nos{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .text-nos{
+            margin-left: 40px;
+            margin-right: 20px;
+            width: 90%;
+            text-align: justify;
+            display: flex;
+            align-self: flex-start;
+            justify-content: flex-start;
+            font-size: 1.5rem;
+            color: $azul;
+        }
+        
+        .video-nos{
+            margin-right: 70px;
+            border-radius: 30px;
+        }
+    }
+}
+
+/* SECCION-2 SOBRE-NOSOTORS */
+.section2-nos{
+    width: 100%;
+    height: 100%;
+    font-size: 2.5rem;
+    padding: 30px;
+    color: $naranja;
+    background-color: $negro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    span{
+        display: block;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+        
+    .atributo-1{
+        height: 50%;
+        width: 10%;
+        text-align: center;  
+    }
+
+    .atributo-2{
+        height: 50%;
+        width: 9%;
+        text-align: center;
+        color: $blanco;
+    }
+
+    .atributo-3{
+        height: 50%;
+        width: 6%;
+        text-align:center;
+    }
+
+    .atributo-4{
+        height: 50%;
+        width: 5%;
+        text-align: end;
+        color: $blanco
+    }
+}
+
+/* SECCION 3 */
+.titulo-nuestro-e{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 40px;
+}
+.nuestro-equipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    .cards{
+        font-size: 1.2rem;
+    }
+    .card-text span{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+/* SECCION 4 */
+.nuestros-principios{
+    padding: 30px 20px 20px 30px;
+    .titulo-principios{
+        text-align: center;
+    }
+    .section-4{
+        display: flex;
+        flex-direction: row;
+        .principios{
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-size: 1.5rem;
+            height: 400px;
+            width: 50%;
+        }
+        .principios div{
+            width: 90%;
+        }
+        .sliders{
+            margin-right: 70px;;
+            padding-top: 15px;
+            width: 40%;
+        }
+        
+    }
+}
+
+

@@ -1,0 +1,53 @@
+/*HEADER*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    .logo-img{
+        width: 100px;
+        padding: 10px 0 10px 20px;
+    }
+    .nav-bar{
+        justify-content: end;
+        .li-nav{
+            padding-right: 15px;                 
+            .texto-nav{
+                font-size: 1.3rem;
+                color:$azul;
+            }
+        }
+    
+    }
+}
+
+
+
+/*FOOTER*/ 
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: $blanco;
+}
+footer div{
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+footer p{
+    font-size: 1.3rem;
+    color: $azul;
+    font-weight: bold;
+    margin: 0;
+}
+.iconos-footer{
+    width: 150px;
+}
+footer svg{
+    width: 30px;
+}
+
+
+

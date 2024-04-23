@@ -1,0 +1,17 @@
+$negro: #0e0e0e;
+$celeste: #3654cd;
+$azul: #1d2d5a;
+$naranja: #d56f2c; 
+$blanco: rgb(250, 250, 250);
+
+
+
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+

@@ -1,0 +1,151 @@
+/*CONTACTO*/ 
+.main-cont{
+    background-color: #0e0e0e;
+    color: rgb(250,250,250);
+    display: flex;
+    flex-direction: row;
+}
+.seccion-1{
+    padding-bottom: 50px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.text-form{
+    padding-top: 30px;
+    width: 40%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
+.text-form h2{
+    font-size: 2.5rem;
+}
+.text-form p{
+    text-align: center;
+    padding-top: 11px;
+}
+.formulario{
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 10px 0 10px 0;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.input{
+    font-size: 1.1rem;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 199, 199);
+    margin: 20px;
+    .input-asunto{
+        height: 40%;
+    }
+}
+
+.check{
+    display: flex;
+    align-content: space-between;
+}
+.check label{
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.cuadradito{
+    color: #1d2d5a;
+    font-size: 1rem;
+}
+.seccion-2{
+    padding-top: 20px;
+    width: 60%;
+    background-image: url('../medios/img-fondo-cont.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .encuentranos{
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+        margin-top: 15px;
+        color: rgb(250,250,250);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .encuentranos-grid{
+        padding: 15px;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 3;
+        grid-template-areas:
+        "icon1 ubi"
+        "icon2 email"
+        "icon3 wpp";
+        
+        .ubi-con{
+            grid-area: ubi;
+            display: flex;
+            justify-self: start;
+        }
+
+        .email-con{
+            grid-area: email;
+        }
+
+        .wpp-com{
+            grid-area: wpp;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .icon1{
+            grid-area: icon1;
+            width: 25px;
+        }
+
+        .icon2{
+            grid-area: icon2;
+            width: 25px;
+        }
+
+        .icon3{
+            grid-area: icon3;
+            width: 25px;
+        }
+
+    }
+        
+    .encuentranos h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .encuentranos p{
+        padding-left: 10px;
+        padding-top: 12px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .encuentranos iframe{
+        margin: 20px;
+        border-radius: 20px;
+        width: 50%;
+        height: 45%;
+        display: flex;
+        justify-self: center;
+    }
+
+}
+

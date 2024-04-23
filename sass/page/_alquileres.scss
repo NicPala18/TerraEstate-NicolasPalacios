@@ -1,0 +1,124 @@
+.titulo-alq-ven{
+    color: $blanco;
+    text-align: center;
+    padding-top: 30px;
+}
+.body-alq-ven{
+    background-color:$azul
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:repeat(6,320px) ;
+    grid-template-areas: 
+    "casa1  casa2  casa3"
+    "casa4  casa5  casa6"
+    "casa7  casa8  casa9"
+    "casa10 casa11 casa12"
+    "casa13 casa14 casa15"
+    "casa16 casa17 casa18";
+    align-items: start;
+    justify-items: center;
+    row-gap: 10rem;
+    margin: 30px 0 110px 0;
+    
+    .casa1{
+        grid-area: casa1;
+        justify-self: end;
+        margin-right: 3rem;
+    }
+    .casa2{
+        grid-area: casa2;
+    }
+    .casa3{
+        grid-area: casa3;
+        justify-self: start;
+        margin-left: 3rem;
+    }
+    .casa4{
+        grid-area: casa4;
+        justify-self: end;
+        margin-right: 3rem;
+    }
+
+    .casa5{
+        grid-area: casa5;
+    }
+    .casa6{
+        grid-area: casa6;
+        justify-self: start;
+        margin-left: 3rem;
+    }
+    .casa7{
+        grid-area: casa7;
+        justify-self: end;
+        margin-right: 3rem;
+    }
+    .casa8{
+        grid-area: casa8;
+    }
+    .casa9{
+        grid-area: casa9;
+        justify-self: start;
+        margin-left: 3rem;
+    }
+    .casa10{
+        grid-area: casa10;
+        justify-self: end;
+        margin-right: 3rem;
+    }
+    .casa11{
+        grid-area: casa11;
+    }
+    .casa12{
+        grid-area: casa12;
+        justify-self: start;
+        margin-left: 3rem;
+    }
+    .casa13{
+        grid-area: casa13;
+        justify-self: end;
+        margin-right: 3rem;
+    }
+    .casa14{
+        grid-area: casa14;
+    }
+    .casa15{
+        grid-area: casa15;
+        justify-self: start;
+        margin-left: 3rem;
+    }
+    .casa16{
+        grid-area: casa16;
+        justify-self: end;
+        margin-right: 3rem;
+    }
+    .casa17{
+        grid-area: casa17;
+    }
+    .casa18{
+        grid-area: casa18;
+        justify-self: start;
+        margin-left: 3rem;
+    }
+    .precio-alq-ven{
+        display: flex;
+        justify-content: center;
+    }
+    .text-alq-ven{
+        font-size: 1.5rem;
+    }
+    .boton-alq-ven{
+        background-color: $naranja;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 30px;
+        font-size: 1.5rem;
+        border: none;
+        padding: 0;
+    }
+    .boton-alq-ven:hover{
+        background-color: $azul;
+    }
+}
