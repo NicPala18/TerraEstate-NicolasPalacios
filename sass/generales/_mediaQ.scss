@@ -54,178 +54,174 @@
             width: 100%
         }
     }
-}
-/*ALQUILERES*/ 
-.body-alq-ven{
-    background-color: #d56f2c;
-}
-
-.card-container{
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    padding-bottom: 70px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:repeat(6,400px);
-    grid-template-areas:
-     "casa2"
-     "casa5"
-     "casa8"
-     "casa11"
-     "casa14"
-     "casa17"
-    ;
-    .boton-alq-ven{
-        background-color: #1d2d5a;
-    }
-    div{
-        margin-top: 20px;
-    }
-    
-    .casa1{
-        display: none;
+    /*ALQUILERES*/ 
+    .body-alq-ven{
+        background-color: #d56f2c;
     }
 
-    .casa3{
-        display: none;
-    }
+    .card-container{
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 70px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(6,400px);
+        grid-template-areas:
+        "casa2"
+        "casa5"
+        "casa8"
+        "casa11"
+        "casa14"
+        "casa17"
+        ;
+        .boton-alq-ven{
+            background-color: #1d2d5a;
+        }
+        div{
+            margin-top: 20px;
+        }
+        
+        .casa1{
+            display: none;
+        }
 
-    .casa4{
-        display: none;
-    }
+        .casa3{
+            display: none;
+        }
 
-    .casa6{
-        display: none;
-    }
+        .casa4{
+            display: none;
+        }
 
-    .casa7{
-        display: none;
-    }
+        .casa6{
+            display: none;
+        }
 
-    .casa9{
-        display: none;
-    }
+        .casa7{
+            display: none;
+        }
 
-    .casa10{
-        display: none;
-    }
+        .casa9{
+            display: none;
+        }
 
-    .casa12{
-        display: none;
-    }
+        .casa10{
+            display: none;
+        }
 
-    .casa13{
-        display: none;
-    }
+        .casa12{
+            display: none;
+        }
 
-    .casa15{
-        display: none;
-    }
+        .casa13{
+            display: none;
+        }
 
-    .casa16{
-        display: none;
-    }
+        .casa15{
+            display: none;
+        }
 
-    .casa18{
-        display: none;
-    }
+        .casa16{
+            display: none;
+        }
 
-}
-    
-/*SOBRE NOSOTROS*/ 
-.titulo-nos{
-    display: flex;
-    justify-content: center;
-}
-.section1-nos{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.p-nos{
-    display: flex;
-    align-content: center;
-}
-.text-nos{
-    text-align: center;
-    width: 100%;
-    height: 25%;
-}
-.video-nos{
-    width: 50%;
-    display: none;
-}
-/*seccion 2 somos*/ 
-.section2-nos{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    span{
+        .casa18{
+            display: none;
+        }
+
+    }
+        
+    /*SOBRE NOSOTROS*/ 
+    .titulo-nos{
         display: flex;
+        justify-content: center;
+    }
+    .section1-nos{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
-}
-.atributo-1{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-self:center;
-}
-
-/* seccion3 */
-.titulo-nuestro-e{
-    text-align: center;
-}
-.nuestro-equipo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    .cards{
-        padding-top: 20px;
+    .p-nos{
+        display: flex;
+        align-content: center;
     }
-}
-
-/* seccion 4 */
-.section-4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .principios{
-        padding-top: 20px;
+    .text-nos{
+        text-align: center;
         width: 100%;
-        height: 50%;
+        height: 25%;
     }
-    .sliders{
-        align-self: center;
-        height: 50%;
-        width: 70%;
+    .video-nos{
+        width: 50%;
+        display: none;
+    }
+    /*seccion 2 somos*/ 
+    .section2-nos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .atributo-1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self:center;
+    }
+
+    /* seccion3 */
+    .titulo-nuestro-e{
+        text-align: center;
+    }
+    .nuestro-equipo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        .cards{
+            padding-top: 20px;
+        }
+    }
+
+    /* seccion 4 */
+    .section-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .principios{
+            padding-top: 20px;
+            width: 100%;
+            height: 50%;
+        }
+        .sliders{
+            align-self: center;
+            height: 50%;
+            width: 70%;
+        }
+    }
+
+    /*CONTACTO*/
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .seccion-1{
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    .seccion-2{
+        padding-bottom: 15px;
     }
 }
-
-/*CONTACTO*/
-.main-cont{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-.seccion-1{
-    padding-bottom: 50px;
-    width: 100%;
-}
-
-.seccion-2{
-    padding-bottom: 15px;
-}
-    
-
-
-
 
 
 
